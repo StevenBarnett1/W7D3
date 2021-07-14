@@ -82,8 +82,42 @@ header {
     justify-content: center;
 }
 
-/* // Your code here */
+@media (min-width:821px) and (max-width:1219px) {
+    .content{
+        display:flex;
+        flex-direction:row;
+    }
+}
 
-/* ===== PRINTING ===== */
+@media (min-width:1220px) {
+    .page{
+        display:flex;
+        flex-direction:row;
+    }
+    .content{
+        display:flex;
+        flex-direction:row;
+    }
+}
 
-/* // Your code here */
+@media print{
+    header, .sidebar{
+        display:none
+    }
+    *{
+        background-color: white;
+    }
+    .story-box{
+        border:none;
+        box-shadow:none;
+        padding: 0px;
+        filter: none;
+    }
+    .image-box{
+        position:fixed;
+        right:30px;
+        top:39px;
+        height:60px;
+        width:90px;
+    }
+}
