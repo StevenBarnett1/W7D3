@@ -12,6 +12,7 @@ html, body, div {
     "header header header"
     "main null sidebar"
     "footer footer footer";
+    justify-content: space-between;
 }
 .item-1 {
     background-color: #87a7b3;

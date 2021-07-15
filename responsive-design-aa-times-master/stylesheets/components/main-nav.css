@@ -1,8 +1,0 @@
-#nav{
-    display:flex;
-    justify-content: center;
-}
-
-#nav > div{
-    padding:6px;
-}
